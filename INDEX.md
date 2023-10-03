@@ -1,3 +1,4 @@
+  [Link](#uniqueID)
 ## [Introduction](#1-introduction)
 
 This document will outline each file in the project and explain its purpose. A
@@ -35,7 +36,7 @@ section and folder. Each new file should be added using the following format.
 
 This will create a collapsible section that can be expanded to view the details of the file.
 ## [Data Aquisition](#dataAquisition)
-  [Link](#uniqueID)
+
 
 ## [Data Processing](#dataProcessing)
 
