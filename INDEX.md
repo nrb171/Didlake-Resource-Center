@@ -1,3 +1,4 @@
+  [Link](#uniqueID)
 ## [Introduction](#1-introduction)
 
 This document will outline each file in the project and explain its purpose. A
@@ -44,6 +45,10 @@ and provide a link to the file in the relavent section
 
 This will create a collapsible section that can be expanded to view the details of the file.
 ## [Data Aquisition](#dataAquisition)
+<<<<<<< HEAD
+=======
+
+>>>>>>> bab5a4c260ac173bcdfd69ef35cde8d518b1b204
 
 ## [Data Processing](#dataProcessing)
 
