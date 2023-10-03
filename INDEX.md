@@ -1,4 +1,5 @@
 ## [Introduction](#1-introduction)
+
 This document will outline each file in the project and explain its purpose. A
 brief description of each file and similar files will also be provided.
 
@@ -22,12 +23,19 @@ typical workflow of a project:
 
 If you intend to add a new file to the project, please add it to the relevant
 section and folder. Each new file should be added using the following format.
-
-```yaml
-{"Name": "looks awesome..."}
+```
+<details>
+<summary>NameOfFile</summary>
+- Description: A brief description of the file. <br>
+- Link: A link to the file. <br>
+- Requirements: A list of requirements for the file. <br>
+- Related Items: A list of related files.<br>
+</details>
 ```
 
+This will create a collapsible section that can be expanded to view the details of the file.
 ## [Data Aquisition](#dataAquisition)
+  [Link](#uniqueID)
 
 ## [Data Processing](#dataProcessing)
 
@@ -41,3 +49,16 @@ section and folder. Each new file should be added using the following format.
 
 ## [Plotting Tools](#plottingTools)
 #### [Colormaps](#colormaps)
+
+
+
+<details>
+<summary> <a name="uniqueID">
+   NameofFile
+</a></summary>
+
+- Description: A brief description of the file. <br>
+- Link: A link to the file. <br>
+- Requirements: A list of requirements for the file. <br>
+- Related Items: A list of related files.<br>
+</details>
