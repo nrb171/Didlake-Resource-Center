@@ -20,22 +20,30 @@ typical workflow of a project:
   - General tools for plotting data.
   - e.g. [#colormaps](#colormaps)
 
+## Usage Instructions
 
-If you intend to add a new file to the project, please add it to the relevant
-section and folder. Each new file should be added using the following format.
+If you intend to add a new file to the project, please copy/paste the below code
+block to the end of the `INDEX.md` in alphabetical order and update to reflect
+the file.
 ```
 <details>
-<summary>NameOfFile</summary>
+<summary> <a name="uniqueID">
+   NameofFile
+</a></summary>
+
 - Description: A brief description of the file. <br>
 - Link: A link to the file. <br>
 - Requirements: A list of requirements for the file. <br>
 - Related Items: A list of related files.<br>
 </details>
 ```
+and provide a link to the file in the relavent section
+```
+[Link](#uniqueID)
+```
 
 This will create a collapsible section that can be expanded to view the details of the file.
 ## [Data Aquisition](#dataAquisition)
-  [Link](#uniqueID)
 
 ## [Data Processing](#dataProcessing)
 
@@ -49,16 +57,3 @@ This will create a collapsible section that can be expanded to view the details 
 
 ## [Plotting Tools](#plottingTools)
 #### [Colormaps](#colormaps)
-
-
-
-<details>
-<summary> <a name="uniqueID">
-   NameofFile
-</a></summary>
-
-- Description: A brief description of the file. <br>
-- Link: A link to the file. <br>
-- Requirements: A list of requirements for the file. <br>
-- Related Items: A list of related files.<br>
-</details>
