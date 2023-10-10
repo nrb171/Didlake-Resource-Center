@@ -59,12 +59,20 @@ This will create a collapsible section that can be expanded to view the details 
 
 ## [Plotting Tools](#plottingTools)
 #### [Colormaps](#colormaps)
+- [cbrewer](#cbrewer)
+- [colortables](#colortables)
+#### [Printing Utilities](#printingUtilities)
+- [plot_whiteSpaceOptimizer](#plot_whiteSpaceOptimizer)
+- [print2](#print2)
+#### [Plotting Functions](#plottingFunctions)
+- [plot streamarrows](#plot_streamArrows)
 
 
-####
+
+## Code Index
 <details>
 <summary> <a name="calculate_CSClass">
-   calculate_CSClass
+   calculate_CSClass.m
 </a></summary>
 
 - Description: Calculate the convective-stratiform classification of a
@@ -73,14 +81,73 @@ This will create a collapsible section that can be expanded to view the details 
 - Requirements: MATLAB <br>
 - Related Items: <br>
 </details>
+<details>
+<summary> <a name="cbrewer">
+   cbrewer.m
+</a></summary>
+
+- Description: useful tool for generating colormaps <br>
+- Link: `./plottingTools/cbrewer.m` <br>
+- Requirements: MATLAB, `plot_brewer_cmap.m`, `colorbrewer.mat` <br>
+- Related Items: `colortables.m`<br>
+</details>
+
+
+<details>
+<summary> <a name="colortables">
+   colortables.m
+</a></summary>
+
+- Description: useful tool for generating colormaps. The use cases here are more
+ specific to meteorology. <br>
+- Link: `./plottingTools/colortables.m` <br>
+- Requirements: MATLAB, `plot_brewer_cmap.m`, `colorbrewer.mat`, `cbrewer.m` <br>
+- Related Items: `cbrewer.m`<br>
+</details>
 
 <details>
 <summary> <a name="db2dbz">
-   db2dbz and dbz2db
+   db2dbz.m and dbz2d.m
 </a></summary>
 
 - Description: convert dBZ to dB and back again <br>
 - Link: `./dataProcessing/dbz2db.m` and `./dataProcessing/db2dbz.m` <br>
 - Requirements: MATLAB <br>
+- Related Items: <br>
+</details>
+
+<details>
+<summary> <a name="plot_streamArrows">
+   plot_streamArrows.m
+</a></summary>
+
+- Description: Plot curved vector fields. <br>
+- Link: `./plottingTools/plot_streamArrows.m` <br>
+- Requirements: MATLAB <br>
+- Related Items: <br>
+</details>
+
+
+<details>
+<summary> <a name="plot_whiteSpaceOptimizer">
+   plot_whiteSpaceOptimizer.m
+</a></summary>
+
+- Description: A helper function to reduce the white space of a figure and
+  modify all fonts. <br>
+- Link: `./plottingTools/plot_whiteSpaceOptimizer.m` <br>
+- Requirements: MATLAB, `plottingTools/plot_whiteSpaceOptimizer.m` <br>
+- Related Items: [print2](#print2) <br>
+</details>
+
+<details>
+<summary> <a name="print2">
+   print2.m
+</a></summary>
+
+- Description: An easier to use printing function that supports rasterized and
+  vector rendering <br>
+- Link: `./plottingTools/print2.,` <br>
+- Requirements: MATLAB, `plottingTools/plot_whiteSpaceOptimizer.m` <br>
 - Related Items: <br>
 </details>
