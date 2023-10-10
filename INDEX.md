@@ -52,8 +52,23 @@ This will create a collapsible section that can be expanded to view the details 
 #### [Coordinate Transforms](#coordinateTransforms)
 #### [Geometric Transforms](#geometricTransforms)
 #### [Variable Conversion](#variableConversion)
+- [Convective/Stratiform classification](#calculate_CSClass)
 
 ## [Data Analysis](#dataAnalysis)
 
 ## [Plotting Tools](#plottingTools)
 #### [Colormaps](#colormaps)
+
+
+####
+<details>
+<summary> <a name="calculate_CSClass">
+   calculate_CSClass
+</a></summary>
+
+- Description: Calculate the convective-stratiform classification of a
+  reflectivity field <br>
+- Link: `./dataProcessing/calculate_CSClass.m` <br>
+- Requirements: MATLAB <br>
+- Related Items: <br>
+</details>
