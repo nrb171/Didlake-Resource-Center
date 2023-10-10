@@ -53,6 +53,7 @@ This will create a collapsible section that can be expanded to view the details 
 #### [Geometric Transforms](#geometricTransforms)
 #### [Variable Conversion](#variableConversion)
 - [Convective/Stratiform classification](#calculate_CSClass)
+- [dBZ to dB and dB to dBZ](#db2dbz)
 
 ## [Data Analysis](#dataAnalysis)
 
@@ -69,6 +70,17 @@ This will create a collapsible section that can be expanded to view the details 
 - Description: Calculate the convective-stratiform classification of a
   reflectivity field <br>
 - Link: `./dataProcessing/calculate_CSClass.m` <br>
+- Requirements: MATLAB <br>
+- Related Items: <br>
+</details>
+
+<details>
+<summary> <a name="db2dbz">
+   db2dbz and dbz2db
+</a></summary>
+
+- Description: convert dBZ to dB and back again <br>
+- Link: `./dataProcessing/dbz2db.m` and `./dataProcessing/db2dbz.m` <br>
 - Requirements: MATLAB <br>
 - Related Items: <br>
 </details>
