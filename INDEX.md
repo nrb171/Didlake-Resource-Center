@@ -103,9 +103,6 @@ This will create a collapsible section that can be expanded to view the details 
    - Related Items: <br>
    </details>
 
-
-
-
 <details><summary> <a name="colortables">
       colortables.m
    </a></summary>
@@ -146,7 +143,6 @@ This will create a collapsible section that can be expanded to view the details 
    - Requirements: MATLAB <br>
    - Related Items: <br>
    </details>
-
 
 <details><summary> <a name="plot_whiteSpaceOptimizer">
       plot_whiteSpaceOptimizer.m
