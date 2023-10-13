@@ -44,10 +44,12 @@ And provide a link to the file in the relevant section.
 
 This will create a collapsible section that can be expanded to view the details of the file.
 ## [Data Aquisition](#dataAquisition)
+[getNCEPReanalysis2](#getNCEPReanalysis)
 
 ## [Data Processing](#dataProcessing)
 
 #### [Interpolation](#interpolation)
+[barnesInterpolation](#barnesInterp)
 
 #### [Coordinate Transforms](#coordinateTransforms)
 #### [Geometric Transforms](#geometricTransforms)
@@ -70,84 +72,100 @@ This will create a collapsible section that can be expanded to view the details 
 
 
 ## Code Index
-<details>
-<summary> <a name="calculate_CSClass">
-   calculate_CSClass.m
-</a></summary>
+<details><summary> <a name="barnesInterp">
+   barnesInterp.m
+   </a></summary>
 
-- Description: Calculate the convective-stratiform classification of a
-  reflectivity field <br>
-- Link: `./dataProcessing/calculate_CSClass.m` <br>
-- Requirements: MATLAB <br>
-- Related Items: <br>
-</details>
-<details>
-<summary> <a name="cbrewer">
-   cbrewer.m
-</a></summary>
+   - Description: An iterative, gaussian weighted interpolation scheme <br>
+   - Link: `./dataProcessing/barnesInterp.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
 
-- Description: useful tool for generating colormaps <br>
-- Link: `./plottingTools/cbrewer.m` <br>
-- Requirements: MATLAB, `plot_brewer_cmap.m`, `colorbrewer.mat` <br>
-- Related Items: `colortables.m`<br>
-</details>
+<details><summary> <a name="cbrewer">
+      cbrewer.m
+   </a></summary>
+   - Description: useful tool for generating colormaps. The use cases here are more
+   specific to meteorology. <br>
+   - Link: `./plottingTools/colortables.m` <br>
+   - Requirements: MATLAB, `plot_brewer_cmap.m`, `colorbrewer.mat`, `cbrewer.m` <br>
+   - Related Items: `cbrewer.m`<br>
+   </details>
+
+<details><summary> <a name="calculate_CSClass">
+      calculate_CSClass.m
+   </a></summary>
+
+   - Description: Calculate the convective-stratiform classification of a
+   reflectivity field <br>
+   - Link: `./dataProcessing/calculate_CSClass.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
 
 
-<details>
-<summary> <a name="colortables">
-   colortables.m
-</a></summary>
 
-- Description: useful tool for generating colormaps. The use cases here are more
- specific to meteorology. <br>
-- Link: `./plottingTools/colortables.m` <br>
-- Requirements: MATLAB, `plot_brewer_cmap.m`, `colorbrewer.mat`, `cbrewer.m` <br>
-- Related Items: `cbrewer.m`<br>
-</details>
 
-<details>
-<summary> <a name="db2dbz">
+<details><summary> <a name="colortables">
+      colortables.m
+   </a></summary>
+
+   - Description: useful tool for generating colormaps. The use cases here are more
+   specific to meteorology. <br>
+   - Link: `./plottingTools/colortables.m` <br>
+   - Requirements: MATLAB, `plot_brewer_cmap.m`, `colorbrewer.mat`, `cbrewer.m` <br>
+   - Related Items: `cbrewer.m`<br>
+   </details>
+
+<details><summary> <a name="db2dbz">
    db2dbz.m and dbz2d.m
-</a></summary>
+   </a></summary>
 
-- Description: convert dBZ to dB and back again <br>
-- Link: `./dataProcessing/dbz2db.m` and `./dataProcessing/db2dbz.m` <br>
-- Requirements: MATLAB <br>
-- Related Items: <br>
-</details>
+   - Description: convert dBZ to dB and back again <br>
+   - Link: `./dataProcessing/dbz2db.m` and `./dataProcessing/db2dbz.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
 
-<details>
-<summary> <a name="plot_streamArrows">
+<details><summary> <a name="getNCEPReanalysis">
+   get_NCEP_reanalysis.m
+   </a></summary>
+
+   - Description: download the NCEP reanalysis data for a given year. <br>
+   - Link: `./dataAquisition/get_NCEP_reanalysis.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
+
+<details><summary> <a name="plot_streamArrows">
    plot_streamArrows.m
-</a></summary>
+   </a></summary>
 
-- Description: Plot curved vector fields. <br>
-- Link: `./plottingTools/plot_streamArrows.m` <br>
-- Requirements: MATLAB <br>
-- Related Items: <br>
-</details>
+   - Description: Plot curved vector fields. <br>
+   - Link: `./plottingTools/plot_streamArrows.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
 
 
-<details>
-<summary> <a name="plot_whiteSpaceOptimizer">
-   plot_whiteSpaceOptimizer.m
-</a></summary>
+<details><summary> <a name="plot_whiteSpaceOptimizer">
+      plot_whiteSpaceOptimizer.m
+   </a></summary>
 
-- Description: A helper function to reduce the white space of a figure and
-  modify all fonts. <br>
-- Link: `./plottingTools/plot_whiteSpaceOptimizer.m` <br>
-- Requirements: MATLAB, `plottingTools/plot_whiteSpaceOptimizer.m` <br>
-- Related Items: [print2](#print2) <br>
-</details>
+   - Description: A helper function to reduce the white space of a figure and
+   modify all fonts. <br>
+   - Link: `./plottingTools/plot_whiteSpaceOptimizer.m` <br>
+   - Requirements: MATLAB, `plottingTools/plot_whiteSpaceOptimizer.m` <br>
+   - Related Items: [print2](#print2) <br>
+   </details>
 
-<details>
-<summary> <a name="print2">
+<details><summary> <a name="print2">
    print2.m
-</a></summary>
+   </a></summary>
 
-- Description: An easier to use printing function that supports rasterized and
-  vector rendering <br>
-- Link: `./plottingTools/print2.,` <br>
-- Requirements: MATLAB, `plottingTools/plot_whiteSpaceOptimizer.m` <br>
-- Related Items: <br>
-</details>
+   - Description: An easier to use printing function that supports rasterized and
+   vector rendering <br>
+   - Link: `./plottingTools/print2.,` <br>
+   - Requirements: MATLAB, `plottingTools/plot_whiteSpaceOptimizer.m` <br>
+   - Related Items: <br>
+   </details>
