@@ -68,6 +68,9 @@ This will create a collapsible section that can be expanded to view the details 
 - [print2](#print2)
 #### [Plotting Functions](#plottingFunctions)
 - [plot streamarrows](#plot_streamArrows)
+  
+## [Publishing](#publishing)
+- [glossary](#glossary)
 
 
 
@@ -133,7 +136,16 @@ This will create a collapsible section that can be expanded to view the details 
    - Requirements: MATLAB <br>
    - Related Items: <br>
    </details>
+   
+<details><summary> <a name="glossary">
+   glossary.tex
+   </a></summary>
 
+   - Description: A list of commonly used METEO terms and definitions. <br>
+   - Link: `./publishing/glossary.tex` <br>
+   - Requirements: LaTeX <br>
+   - Related Items: <br>
+   </details>
 <details><summary> <a name="plot_streamArrows">
    plot_streamArrows.m
    </a></summary>
