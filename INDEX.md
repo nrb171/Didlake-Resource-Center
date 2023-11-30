@@ -134,6 +134,25 @@ This will create a collapsible section that can be expanded to view the details 
    - Related Items: <br>
    </details>
 
+<details><summary> <a name="getTCPRIMED">
+   get_TCPRIMED.py
+   </a></summary>
+
+   - Description: download TCPRIMED data from AWS. <br>
+   - Link: `./dataAquisition/get_TCPRIMED.py` <br>
+   - Requirements: python <br>
+   - Related Items: plot_TCPRIMED.m <br>
+   </details>
+
+<details><summary> <a name="plotTCPRIMED">
+   plot_TCPRIMED.m
+   </a></summary>
+
+   - Description: plot TCPRIMED microwave. <br>
+   - Link: `./plottingTools/get_TCPRIMED.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: get_TCPRIMED.py <br>
+   </details>
 <details><summary> <a name="plot_streamArrows">
    plot_streamArrows.m
    </a></summary>
