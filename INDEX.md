@@ -46,7 +46,7 @@ This will create a collapsible section that can be expanded to view the details 
 ## [Data Aquisition](#dataAquisition)
 - [getNCEPReanalysis2](#getNCEPReanalysis)
 - [getTCPRIMED](#getTCPRIMED)
-- [extractStormFromTCRADAR]
+- [extractStormFromTCRADAR](#extractStormFromTCRADAR)
 
 ## [Data Processing](#dataProcessing)
 
@@ -70,6 +70,7 @@ This will create a collapsible section that can be expanded to view the details 
 - [print2](#print2)
 #### [Plotting Functions](#plottingFunctions)
 - [plot streamarrows](#plot_streamArrows)
+- [plot TCRADAR](#plot_TCRADAR)
   
 ## [Publishing](#publishing)
 - [glossary](#glossary)
@@ -136,7 +137,8 @@ This will create a collapsible section that can be expanded to view the details 
    - Description: Extract all variables of TCRADAR for a single storm. <br>
    - Link: `./dataProcessing/extractStormFromTCRADAR.m` <br>
    - Requirements: MATLAB <br>
-   - Related Items: TCRADAR is available here: [TCRADAR](https://www.aoml.noaa.gov/ftp/pub/hrd/data/radar/level3/)<br>
+   - Related Items: 
+      - TCRADAR is available here: [TCRADAR](https://www.aoml.noaa.gov/ftp/pub/hrd/data/radar/level3/)<br>
    </details>
 
 
@@ -169,6 +171,19 @@ This will create a collapsible section that can be expanded to view the details 
    - Requirements: MATLAB <br>
    - Related Items: get_TCPRIMED.py <br>
    </details>
+
+<details><summary> <a name="plot_TCRADAR">
+   plot_TCRADAR.m
+   </a></summary>
+
+   - Description: Plot TCRADAR data. <br>
+   - Link: `./plottingTools/plot_TCRADAR.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: 
+      - [extractStormFromTCRADAR](#extractStormFromTCRADAR) <br>
+      - TCRADAR is available here: [TCRADAR](https://www.aoml.noaa.gov/ftp/pub/hrd/data/radar/level3/) <br>
+   </details>
+
 <details><summary> <a name="glossary">
    glossary.tex
    </a></summary>
