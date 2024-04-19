@@ -1,0 +1,113 @@
+%In main.tex you will need to include the following in your preamble
+%\usepackage{glossaries}
+%\newcommand\nge[3]{
+%    \newglossaryentry{#1}{
+%        name = {#2},
+%        description = {#3}
+%    }
+%}
+
+\newglossaryentry{vorticity}{
+    name = Vorticity,
+    description = {A measurement of rotation - the curl of a vector-valued velocity field, $\nabla \times \overrightarrow{u}$. The main components of the vorticity equation include stretching, tilting, baroclinicity (gradients in pressure and density), and viscous effects}}
+
+\newglossaryentry{TC}{
+    name = {Tropical cyclone},
+    description = {(\textbf{TC}) A localized, low-pressure, mesoscale ($\approx 200$~km along a single dimension) vortex near the equator}}
+
+\newglossaryentry{intensity}{
+    name = Intensity,
+    description = {The strength of a tropical cyclone, calculated by finding the maximum azimuthal average of the tangential wind speed at $2$~km altitude}}
+
+\newglossaryentry{track}{
+    name = Track,
+    description = {The path that a tropical cyclone has, or will be, taken}}
+
+\newglossaryentry{rainband}{
+    name = {Rainband},
+    description = {A spiral band complex that often forms around hurricane-strength tropical cyclones. It is characterized by isolated pockets of intense precipitation upwind and widespread precipitation downwind}}
+
+\newglossaryentry{advection}{
+    name = {Advection},
+    description = {The transfer of energy by moving fluids. Mathematically, this is the dot product of a vector-valued velocity field and the Del operator, ($\overrightarrow{u} \cdot \nabla$)}}
+
+\newglossaryentry{PV}{
+    name = {Potential vorticty},
+    description = {(\textbf{PV}) The absolute circulation of a air parcel. Potential vorticity is conserved for an \gls{adiabatic}, isotropic motion}}
+
+\newglossaryentry{theta_e}{
+    name = {$\theta_e$},
+    description = {The equivalent potential temperature (see \gls{theta}). The potential temperature, if all available water vapor is condensed and the parcel is brought adiabatically to a reference pressure.}}
+
+\nge{theta}{$\theta$}{The potential temperature is the temperature of a parcel of air if it were to be adiabatically brought to a reference pressure.}
+
+\newglossaryentry{bl}{
+    name = {Boundary layer},
+    description = {The boundary layer is the bottom $\approx 1$~km of the atmosphere where the friction from the Earth-atmosphere surface alters the atmospheric flow}}
+
+\newglossaryentry{compensatingSubsidence}{
+    name = {Compensating subsidence},
+    description = {Downward motion at the outer edge of updrafts}}
+
+\newglossaryentry{convective}{
+    name = {Convective},
+    description = {Convective precipitation is characterized by strong, isolated vertical motions that grow hydrometeors through coalescence. Small, intense reflectivity peaks can identify convective events in a radar retrieval }}
+
+\newglossaryentry{stratiform}{
+    name = {Stratiform},
+    description = {Weak, widespread vertical motions characterize stratiform precipitation. Small (ice) hydrometeors are held aloft by this vertical motion and are allowed to grow through vapor deposition (vapor to solid transition). In a radar retrieval, stratiform precipitation has a homogeneous, widespread region of moderate-to-weak reflectivities aloft, under which a bright band of reflectivities denotes the melting layer }}
+
+\newglossaryentry{eyewall}{
+    name = {Eyewall},
+    description = {The central, concave, and rapidly ascending cloud region at the core of a tropical cyclone. Air is brought into the storm through the pressure-gradient force that causes a region of strong convergence at the base of the eyewall. The outward tilt of the eyewall is caused by rising parcels of air traveling along temperature and angular momentum surfaces}}
+
+\newglossaryentry{convection}{
+    name = {Convection},
+    description = {Vertical advection caused by buoyancy. Condensing water vapor increases the temperature of a parcel of air, which causes a vertical buoyancy force. Not to be confused with convective precipitation}}
+
+\newglossaryentry{shear}{
+    name = {Shear},
+    description = {Vertical wind shear acting on a tropical cyclone. Typically, this is between $850$ and $200$~millibars altitude}}
+
+\newglossaryentry{convergence}{
+    name = {Convergence},
+    description = {The opposite of the divergence, $-\nabla \cdot \overrightarrow{u}$}}
+
+
+\newglossaryentry{vaporDeposition}{
+    name = {Vapor deposition},
+    description = {Ice crystal growth caused by water vapor molecules skipping the liquid phase to collect on an ice crystal}}
+
+\nge{cyclonic}{Cyclonic}{A cyclonic flow rotates counter-clockwise}
+
+\nge{squallLine}{Squall Line}{A squall line is a mesoscale, quasi-linear line of thunderstorm}
+
+\nge{hydrometeor}{Hydrometeor}{\textbf{(reflectivity)} The product of water vapor molecules collecting into a liquid or solid particle in the Earth's atmosphere. Water molecules are electromagnetically polar, and when exposed to electromagnetic waves, they will move to orient along with the wave. The acceleration of charges induces a second electromagnetic wave at the same wavelength as that experienced by the scatterer. This second wave can be observed by radar, the intensity of which corresponds to the reflectivity}
+
+\nge{tailDopplerRadar}{Tail-Doppler Radar}{Several of the National Oceanic and Atmospheric P3 aircraft are equipped with tail-mounted radar. These can accurately measure scattering particle wind speed relative to the radar and the reflectivity of scatterers}
+
+\nge{kinematics}{Kinematics}{\textbf{(retrieved)} Hydrometeorological scatterers that travel toward or away from a radar source will observe a Doppler-shifted electromagnetic wave frequency. Thus, they will emit a Doppler-shifted wave in response. The frequency of the retrieved wave can be used to then calculate the velocity of the scatter relative to the radar}
+
+\nge{ensembleKalmanFilter}{Ensemble Kalman Filter}{A method for combining (assimilating) observations into simulations to produce a more accurate result}
+
+\nge{secondaryEyewallFormation}{Secondary eyewall formation}{The process in which a second eyewall forms radially outside of the primary eyewall. This secondary eyewall often starves the inner eyewall of air - eventually destroying it - and becomes the primary eyewall}
+
+\nge{secondaryCirculation}{Secondary circulation}{The radial and vertical circulation of a tropical cyclone caused by the pressure gradient force and convergence near the eyewall}
+
+\nge{tangentialWind}{Tangential wind}{ \textbf{(Primary circulation)} The cyclonically rotating component of tropical cyclone circulation caused by the Coriolis force interacting on a radially inflowing fluid}
+
+\nge{hurricaneStrength}{Hurricane-strength}{\textbf{(Saffir-Simpson Scale} The intensity of tropical cyclones can characterized by their tangential wind speed. The Saffir-Simpson scale classifies tropical cyclones as hurricanes when they have a maximum tangential wind above $\approx 32$~ms$^{-1}$. Tropical cyclones below this magnitude are considered tropical storms}
+
+\nge{kinematicsD}{Kinematics}{\textbf{(fluid)} Kinematics are instantaneous velocity measurements of a fluid}
+
+\nge{downshear}{Downshear}{The half of the storm that lies within $\pm 90$\deg of the shear vector's heading relative to the storm center. Opposite of upshear}
+
+\nge{upshear}{Upshear}{The half of the storm that lies within $\pm 90$\deg of the shear vector's tail relative to the storm center. Opposite of downshear}
+
+\nge{lagrangian}{Lagrangian}{Lagrangian inertial reference frames are not fixed to a global point (such as a Eulerian framework) but move along the flow as if attached to a massless object}
+
+\nge{streamline}{Streamline}{The path that a massless object would travel if it were placed in a moving fluid.}
+
+\nge{irrotational}{Irrotational}{A rotating flow with no vorticity except at the very center of rotation. An object pointed northward when placed in an irrotational flow would move around the center of rotation but always point north}
+
+\nge{adiabatic}{Adiabatic}{A process contained within a closed thermodynamical system that exchanges no energy with the outside, global system.}
