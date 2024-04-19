@@ -44,7 +44,9 @@ And provide a link to the file in the relevant section.
 
 This will create a collapsible section that can be expanded to view the details of the file.
 ## [Data Aquisition](#dataAquisition)
-[getNCEPReanalysis2](#getNCEPReanalysis)
+- [getNCEPReanalysis2](#getNCEPReanalysis)
+- [getTCPRIMED](#getTCPRIMED)
+- [extractStormFromTCRADAR]
 
 ## [Data Processing](#dataProcessing)
 
@@ -126,6 +128,17 @@ This will create a collapsible section that can be expanded to view the details 
    - Requirements: MATLAB <br>
    - Related Items: <br>
    </details>
+
+<details><summary> <a name="extractStormFromTCRADAR">
+   extractStormFromTCRADAR.m
+   </a></summary>
+
+   - Description: Extract all variables of TCRADAR for a single storm. <br>
+   - Link: `./dataProcessing/extractStormFromTCRADAR.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: TCRADAR is available here: [TCRADAR](https://www.aoml.noaa.gov/ftp/pub/hrd/data/radar/level3/)<br>
+   </details>
+
 
 <details><summary> <a name="getNCEPReanalysis">
    get_NCEP_reanalysis.m
