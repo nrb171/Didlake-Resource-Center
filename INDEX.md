@@ -125,7 +125,7 @@ This will create a collapsible section that can be expanded to view the details 
    </a></summary>
 
    - Description: convert dBZ to dB and back again <br>
-   - Link: `./dataProcessing/dbz2db.m` and `./dataProcessing/db2dbz.m` <br>
+   - Link: `./dataProcessing/helpers/dbz2db.m` and `./dataProcessing/helpers/db2dbz.m` <br>
    - Requirements: MATLAB <br>
    - Related Items: <br>
    </details>
