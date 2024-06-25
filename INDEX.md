@@ -55,7 +55,8 @@ This will create a collapsible section that can be expanded to view the details 
 
 #### [Coordinate Transforms](#coordinateTransforms)
 - [calculate_quadrantAverages](#calculate_quadrantAverages)
-#### [Geometric Transforms](#geometricTransforms)
+#### [Component Extraction](#geometricTransforms)
+- [wavenumberDecomposition](#wavenumberDecomposition)
 #### [Variable Conversion](#variableConversion)
 - [Convective/Stratiform classification](#calculate_CSClass)
 #### [Helpers](#helpers)
@@ -244,7 +245,18 @@ This will create a collapsible section that can be expanded to view the details 
 
    - Description: An easier to use printing function that supports rasterized and
    vector rendering <br>
-   - Link: `./plottingTools/print2.,` <br>
+   - Link: `./plottingTools/print2.m` <br>
    - Requirements: MATLAB, `plottingTools/plot_whiteSpaceOptimizer.m` <br>
    - Related Items: <br>
    </details>
+
+<details><summary> <a name="wavenumberDecomposition">
+   wavenumberDecomposition.m
+   </a></summary>
+
+   - Description: A tool to decompose centered cartesian tensor fields into integer wavenumber components <br>
+   - Link: `./dataProcessing/wavenumberDecomposition.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
+   
