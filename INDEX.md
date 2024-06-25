@@ -66,6 +66,7 @@ This will create a collapsible section that can be expanded to view the details 
 - [lat/lon differences to dx/dy/dr/dtheta](#latlon_to_disaz)
 
 ## [Data Analysis](#dataAnalysis)
+- [calculate environmental shear](#calculateEnvironmentalShear)
 
 ## [Plotting Tools](#plottingTools)
 #### [Colormaps](#colormaps)
@@ -114,6 +115,19 @@ This will create a collapsible section that can be expanded to view the details 
    - Requirements: MATLAB <br>
    - Related Items: <br>
    </details>
+
+<details><summary> <a name="calculateEnvironmentalShear">
+      calculateEnvironmentalShear.m
+   </a></summary>
+
+   - Description: Calculate environmental shear from NCEP Reanalysis II data (see Kanamitsu et al., 2002) using the methodology described in Davis et al. (2008). Please read the documentation before using this script. <br>
+   - Link: `./dataAnalysis/calculateEnvironmentalShear.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+      - Davis, C., C. Snyder, and A. C. Didlake, 2008: A vortex-based perspective of eastern Pacific tropical cyclone formation. Monthly Weather Review, 136, 2461–2477, https://doi.org/10.1175/2007MWR2317.1.<br>
+      - Kanamitsu, B. Y. M., W. Ebisuzaki, W. Jack, S. Yang, J. J. Hnilo, M. Fiorino, and G. L. Potter, 2002: NCEP-DOE AMIP-II Reanalysis (R-2). Bulletin of the American Meteorological Society, 83, 1631–1644, https://doi.org/10.1175/BAMS-83-11-1631. <br>
+   </details>
+
 
 <details><summary> <a name="calculate_quadrantAverages">
       calculate_quadrantAverages.m
