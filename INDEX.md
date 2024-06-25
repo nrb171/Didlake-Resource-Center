@@ -62,6 +62,8 @@ This will create a collapsible section that can be expanded to view the details 
 #### [Helpers](#helpers)
 - [dBZ to dB and vice versa](#db2dbz)
 - [meteo to math angles and vice versa](#met2mat)
+- [UV to Radial/Tangential](#makeUVtoRadTan)
+- [lat/lon differences to dx/dy/dr/dtheta](#latlon_to_disaz)
 
 ## [Data Analysis](#dataAnalysis)
 
@@ -152,7 +154,7 @@ This will create a collapsible section that can be expanded to view the details 
    - Link: `./dataProcessing/extractStormFromTCRADAR.m` <br>
    - Requirements: MATLAB <br>
    - Related Items: 
-      - TCRADAR is available here: [TCRADAR](https://www.aoml.noaa.gov/ftp/pub/hrd/data/radar/level3/)<br>
+      - TC-RADAR is available here: [TC-RADAR](https://www.aoml.noaa.gov/ftp/pub/hrd/data/radar/level3/)<br>
    </details>
 
 
@@ -174,6 +176,26 @@ This will create a collapsible section that can be expanded to view the details 
    - Link: `./dataAquisition/get_TCPRIMED.py` <br>
    - Requirements: python <br>
    - Related Items: plot_TCPRIMED.m <br>
+   </details>
+
+<details><summary> <a name="latlon_to_disaz.m">
+   latlon_to_disaz.m
+   </a></summary>
+
+   - Description: convert differences in latitude and longitude to zonal, meridional, meridian arclength, and azimuth <br>
+   - Link: `./dataProcessing/helpers/latlon_to_disaz.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
+
+<details><summary> <a name="makeUVtoRadTan">
+   makeUVtoRadTan.m
+   </a></summary>
+
+   - Description: quickly convert between zonal and meridional wind to radial and tangential wind<br>
+   - Link: `./dataProcessing/helpers/makeUVtoRadTan.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
    </details>
 
 <details><summary> <a name="met2mat">
