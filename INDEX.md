@@ -51,13 +51,16 @@ This will create a collapsible section that can be expanded to view the details 
 ## [Data Processing](#dataProcessing)
 
 #### [Interpolation](#interpolation)
-[barnesInterpolation](#barnesInterp)
+- [barnesInterpolation](#barnesInterp)
 
 #### [Coordinate Transforms](#coordinateTransforms)
+- [calculate_quadrantAverages](#calculate_quadrantAverages)
 #### [Geometric Transforms](#geometricTransforms)
 #### [Variable Conversion](#variableConversion)
 - [Convective/Stratiform classification](#calculate_CSClass)
-- [dBZ to dB and dB to dBZ](#db2dbz)
+#### [Helpers](#helpers)
+- [dBZ to dB and vice versa](#db2dbz)
+- [meteo to math angles and vice versa](#met2mat)
 
 ## [Data Analysis](#dataAnalysis)
 
@@ -106,6 +109,16 @@ This will create a collapsible section that can be expanded to view the details 
    reflectivity field <br>
    - Link: `./dataProcessing/calculate_CSClass.m` <br>
    - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
+
+<details><summary> <a name="calculate_quadrantAverages">
+      calculate_quadrantAverages.m
+   </a></summary>
+
+   - Description: Calculate quadrant averages from a given center location (in lat/lon) and direction. <br>
+   - Link: `./dataProcessing/calculate_quadrantAverages.m` <br>
+   - Requirements: MATLAB; [`met2mat.m`](#met2mat) <br>
    - Related Items: <br>
    </details>
 
@@ -161,6 +174,17 @@ This will create a collapsible section that can be expanded to view the details 
    - Requirements: python <br>
    - Related Items: plot_TCPRIMED.m <br>
    </details>
+
+<details><summary> <a name="met2mat">
+   met2mat.m and mat2met.m
+   </a></summary>
+
+   - Description: handy conversions between math and meteo angle conventions. <br>
+   - Link: `./dataProcessing/helpers/met2mat.m` and `./dataProcessing/helpers/met2mat.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: <br>
+   </details>
+
 
 <details><summary> <a name="plotTCPRIMED">
    plot_TCPRIMED.m
