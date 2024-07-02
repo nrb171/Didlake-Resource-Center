@@ -61,6 +61,7 @@ This will create a collapsible section that can be expanded to view the details 
 - [Convective/Stratiform classification](#calculate_CSClass)
 #### [Helpers](#helpers)
 - [dBZ to dB and vice versa](#db2dbz)
+- [Helmholtz Decomposition](#helmholtzDecomposition)
 - [meteo to math angles and vice versa](#met2mat)
 - [UV to Radial/Tangential](#makeUVtoRadTan)
 - [lat/lon differences to dx/dy/dr/dtheta](#latlon_to_disaz)
@@ -191,6 +192,16 @@ This will create a collapsible section that can be expanded to view the details 
    - Requirements: python <br>
    - Related Items: plot_TCPRIMED.m <br>
    </details>
+<details><summary> <a name="helmholtzDecomposition">
+   helmholtzDecomposition.m
+   </a></summary>
+
+   - Description: Perform Helmholtz decomposition on horizontal wind (zonal and meridional) fields. Includes dVdx subroutine. <br>
+   - Link: `./dataProcessing/helpers/helmholtzDecomposition.m` <br>
+   - Requirements: MATLAB <br>
+   - Related Items: [calculateEnvironmentalShear.m](#calculateEnvironmentalShear) <br>
+   </details>
+   
 
 <details><summary> <a name="latlon_to_disaz.m">
    latlon_to_disaz.m
